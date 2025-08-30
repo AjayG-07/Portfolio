@@ -1,0 +1,38 @@
+a {
+    cursor: pointer;
+}
+
+.color a:hover {
+    color: rgb(202, 247, 247);
+    border-bottom: 2px solid aqua;
+    text-decoration: none;
+}
+
+.active {
+    color: aqua;
+    border-bottom: 2px solid aqua;
+}
+
+.logo h1 {
+    font-size: 30px;
+    background: linear-gradient(to right, rgb(66, 180, 205), white);
+    background-clip: text;
+    color: transparent;
+}
+.color a {
+    color: white;
+}
+
+.navbar-nav .nav-link.active, .navbar-nav .show>.nav-link {
+    color: aqua;
+}
+
+.navbar-toggler-icon {
+    filter: invert();
+}
+
+
+.bg-dark {
+    --bs-bg-opacity: 1;
+    background-color: rgb(9, 8, 26) !important;
+  }

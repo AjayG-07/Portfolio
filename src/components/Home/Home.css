@@ -1,0 +1,305 @@
+/* Base Styles (Mobile First) */
+#home {
+    width: 100%;
+    min-height: 80vh;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .allhome {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    min-height: 80vh;
+    background-color: #0a0a0a;;
+  }
+
+  .styles-module_blinking__9VXRT {
+    color: aqua;
+}
+  
+  .rightside,
+  .leftside {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+  }
+  
+  .details {
+    color: white;
+    text-align: center;
+  }
+  
+  .line1 {
+    font-size: 1rem;
+  }
+  
+  .line2 {
+    font-size: 2rem;
+    background: linear-gradient(to right, rgb(66, 180, 205), white);
+    background-clip: text;
+    color: transparent;
+  }
+  
+  .line3 {
+    font-size: 1rem;
+  }
+  
+  .box {
+    width: 90%;
+    max-width: 22rem;
+    background-color: #050c37;
+    border-radius: 5px;
+    border: 5px solid #08123f;
+    filter: drop-shadow(4px 6px 5px blue);
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem 0;
+  }
+  
+  .img1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  img {
+    width: 100%;
+    max-width: 20rem;
+    height: auto;
+    border-radius: 10px;
+  }
+  
+  .square {
+    width: 90%;
+    height: 5rem;
+    background-color: rgb(5, 8, 89);
+    position: absolute;
+    bottom: -2.5rem;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 15px 15px 25px 8px;
+    filter: drop-shadow(4px 6px 5px rgb(113, 113, 217));
+  }
+  
+  
+
+  @media (min-width: 300px) {
+    .details {
+      margin-top: 2rem;
+    }
+  }
+
+  /* Tablet (min-width: 600px) */
+  @media (min-width: 600px) {
+    .line2 {
+      font-size: 2.5rem;
+    }
+  
+    .line3 {
+      font-size: 1.2rem;
+    }
+  
+    .box {
+      max-width: 25rem;
+    }
+  
+    .square {
+      height: 6rem;
+    }
+    .details {
+      margin-top: 2rem;
+    }
+  }
+  
+  
+  /* Small Laptop (min-width: 768px) */
+  @media (min-width: 768px) {
+    .allhome {
+      flex-direction: row;
+    }
+  
+    .rightside,
+    .leftside {
+      width: 50%;
+      height: 100vh;
+    }
+  
+    .details {
+      text-align: left;
+      text-align: left;
+        position: relative;
+        bottom: 4rem;
+        left: -2rem;
+    }
+  
+    .box {
+        position: absolute;
+        top: 450px;
+        right: 200px;
+        height: 425px;
+    }
+    
+  
+    img {
+      max-width: 25rem;
+      height: 24rem;
+    }
+  
+    .square {
+        width: 12vw;
+        top: 19.5rem;
+        left: 12%;
+        transform: none;
+        right: 20.5rem;
+        height: 21%;
+    }
+
+    
+
+  }
+  
+  
+  /* Desktop (min-width: 1024px) */
+  @media (min-width: 1024px) {
+    .line2 {
+      font-size: 3.5rem;
+    }
+  
+    .line3 {
+      font-size: 1.8rem;
+    }
+  
+    .box {
+        max-width: 33rem;
+        height: 24rem;
+        position: absolute;
+        left: 52rem;
+        top: 152px;
+    }
+
+    .square {
+        width: 23%;
+        height: 22%;
+        bottom: 0rem;
+        left: 31%;
+        top: 17rem;
+        transform: translateX(-50%);
+        border-radius: 15px 15px 25px 8px;
+        filter: drop-shadow(4px 6px 5px rgb(113, 113, 217));
+    }
+
+  }
+  
+  
+  /* Large Desktop (min-width: 1440px) */
+  @media (min-width: 1440px) {
+    .line2 {
+      font-size: 3.5rem;
+    }
+  
+    .line3 {
+      font-size: 1.5rem;
+    }
+
+    .square {
+        width: 30%;
+        height: 22%;
+        bottom: 0rem;
+        left: 26%;
+        transform: translateX(-50%);
+        border-radius: 15px 15px 25px 8px;
+        filter: drop-shadow(4px 6px 5px rgb(113, 113, 217));
+        top: 18rem;
+    }
+  }
+  
+  /* Fixes for narrow screens (500px–767px) */
+@media (max-width: 767px) {
+    .line1 {
+      font-size: 1.1rem;
+      margin-bottom: 0.5rem;
+      text-align: center;
+      color: white;
+    }
+  
+    .square {
+        width: 30%;
+        height: 22%;
+        bottom: 0rem;
+        left: 22%;
+      transform: translateX(-50%);
+      border-radius: 15px 15px 25px 8px;
+      filter: drop-shadow(4px 6px 5px rgb(113, 113, 217));
+    }
+  }
+  .click {
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+  }
+  
+  .btn {
+    padding: 0.8rem 2rem;
+    font-size: 1rem;
+    background-color: rgb(8, 8, 53);
+    color: wheat;
+    border: none;
+    border-radius: 12px;
+    position: relative;
+    z-index: 1;
+    cursor: pointer;
+    overflow: hidden;
+  }
+  
+  /* Thick, visible rotating border */
+  .btn::before {
+    content: '';
+    position: absolute;
+    top: -8px;
+    left: -8px;
+    right: -8px;
+    bottom: -8px;
+    z-index: -1;
+    background: conic-gradient(from var(--angle), red, blue, yellow, green, red);
+    border-radius: 16px;
+    animation: spin 3s linear infinite;
+    filter: blur(3px); /* adds glow effect */
+  }
+  
+  /* Center layer to mask background inside the button */
+  .btn::after {
+    content: '';
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    right: 2px;
+    bottom: 2px;
+    background: rgb(8, 8, 53);
+    border-radius: 10px;
+    z-index: -1;
+  }
+  
+  /* Rotation animation */
+  @property --angle {
+    syntax: "<angle>";
+    initial-value: 0deg;
+    inherits: false;
+  }
+  
+  @keyframes spin {
+    0% {
+      --angle: 0deg;
+    }
+    100% {
+      --angle: 360deg;
+    }
+  }
+  
