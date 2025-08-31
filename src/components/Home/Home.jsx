@@ -29,7 +29,7 @@ const Home = () => {
     marginTop:' 30px'}} >
 
             <div className="click">
-            <button className="btn">Hire me</button>
+            <button className="btn"><a className='' style={{textDecoration:'none'}} href="https://www.linkedin.com/in/ajaygaikwad07/">Hire me</a></button>
             </div>
 
             </div>

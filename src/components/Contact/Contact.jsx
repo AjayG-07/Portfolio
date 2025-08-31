@@ -32,7 +32,7 @@ const Contact = () => {
           <div className="contact-box">
             <FaPhoneAlt className="box-icon" />
             <h3>Phone</h3>
-            <p>+91 9876543210</p>
+            <p>+91 8591207996</p>
           </div>
         </div>
 
@@ -64,19 +64,21 @@ const Contact = () => {
           <h2>Let's Connect</h2>
           <p>Feel free to reach out via social platforms or email.</p>
           <div className="social-icons">
-            <a href="https://github.com/yourusername" target="_blank" rel="noreferrer">
+            <a href="https://github.com/AjayG-07/" target="_blank" rel="noreferrer">
               <FaGithub />
             </a>
-            <a href="https://linkedin.com/in/yourprofile" target="_blank" rel="noreferrer">
+            <a href="https://www.linkedin.com/in/ajaygaikwad07/" target="_blank" rel="noreferrer">
               <FaLinkedin />
             </a>
             <a href="mailto:ajaygaikwad2556@gmail.com">
               <FaEnvelope />
             </a>
           </div>
-          <p className="copyright">
-            © {new Date().getFullYear()} Ajay Gaikwad. All rights reserved.
+          <p className="text-center text-sm text-gray-400">
+            © {new Date().getFullYear()} Ajay Gaikwad. All rights reserved. <br />
+            MADE IN INDIA 🇮🇳
           </p>
+
         </div>
       </footer>
     </section>
