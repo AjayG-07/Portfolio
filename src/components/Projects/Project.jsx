@@ -8,13 +8,13 @@ const projects = [
     title: "Job Portal",
     description: "A Django-powered job portal with dynamic dashboards, resume uploads, and AI-based job recommendations.",
     image: "https://images.unsplash.com/photo-1487017159836-4e23ece2e4cf?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NTJ8fGJ1c2luZXNzfGVufDB8fDB8fHww",
-    link: "http://127.0.0.1:8000/"
+    link: "https://github.com/AjayG-07/Job-Portal"
   },
   {
     title: "Food Ordering Website",
     description: "A full-featured food delivery website with user/admin roles, CRUD for food items, cart, and responsive UI.",
     image: "https://plus.unsplash.com/premium_photo-1663852297267-827c73e7529e?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8Zm9vZHxlbnwwfHwwfHx8MA%3D%3D",
-    link: "#"
+    link: "https://github.com/AjayG-07/Food-Website"
   },
   {
     title: "Online Examination Portal",
